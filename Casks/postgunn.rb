@@ -1,13 +1,13 @@
 cask "postgunn" do
-    version "0.0.7"
+    version "0.0.8"
   
     on_arm do
-      sha256 "0dbe8760d73ae8aad4133e8bf892b2f49a6f10502f9770de6c78fad0f6279f0d"
+      sha256 "fb7692a587843f9d2d0221e844d311d4742ff5bf87b9eb930580c32c87ece7dc"
       url "https://github.com/gunnsticles/homebrew-postgunn/releases/download/v#{version}/Postgunn-#{version}-arm64.dmg"
     end
   
     on_intel do
-      sha256 "4440dd671eb4a4e1309feb8c361222876487f1b0686e6c397e7e033271330b85"
+      sha256 "590e5b79119dea6f94b9d6836ecc3ff8d77fb42ccf04482443540573eb341fb2"
       url "https://github.com/gunnsticles/homebrew-postgunn/releases/download/v#{version}/Postgunn-#{version}.dmg"
     end
   
